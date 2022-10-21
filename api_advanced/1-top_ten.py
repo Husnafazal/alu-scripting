@@ -42,4 +42,4 @@ def top_ten(subreddit):
             for post in hot_posts:
                 if post.get('data') and post.get('data').get('title'):
                     print(post.get('data').get('title'))
-                    
+            
